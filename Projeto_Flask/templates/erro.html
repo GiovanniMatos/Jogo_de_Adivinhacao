@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='erro.css')}}">
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+    <h1>Você Errou</h1><br>
+    <h2>O número era: {{ num }}</h2><br>
+    <a href="/">Jogar Novamente?</a>
+
+</body>
+</html>

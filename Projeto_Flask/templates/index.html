@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css')}}">
+    <title>Jogo de Adivinhação</title>
+</head>
+<body>
+    <div class="box">
+        <h1>{{ variavel }}</h1>
+        <form action="{{ url_for('index')}}" method="post">
+            <label><b>Tente adivinhar um número de 0 a 10</b></label><br>
+            <input type="text" name="name" required></input>
+            <button type="submit">Advinhar</button>
+        </form>
+    </div>    
+</body>
+</html>
