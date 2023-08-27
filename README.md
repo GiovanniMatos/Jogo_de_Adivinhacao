@@ -1,1 +1,1 @@
-# Python - Jogo de Adivinhacao
+Jogo de Advinhação utilizando o Framework Flask do Python
